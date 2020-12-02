@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testNGFramework">
+	<test thread-count="5" name="YourLogo_Registration_Logout_Login">
+		<classes>
+			<class name="testNGFramework.YourLogoForTestNG"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Petstore_Registration">
+		<classes>
+			<class name="testNGFramework.Petstore"></class>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Zerowebapp_Login">
+		<classes>
+			<class name="testNGFramework.ZerobankingForTestNG"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
