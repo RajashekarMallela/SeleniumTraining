@@ -56,6 +56,6 @@ public class AssertionDemo {
 	public void g_assertnull() {
 		Object obyn = null;
 		Assert.assertNull(obyn);
-		System.out.println("Assertnull pass");
+		System.out.println("Assertnull pass!");
 	}
 }
